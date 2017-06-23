@@ -1,0 +1,31 @@
+/* eslint-disable */
+{
+  "extends": "airbnb",
+  "env":{
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+     "no-plusplus": "off",
+    "import/no-named-as-default": "off",
+    "react/jsx-filename-extension": "off",
+    "comma-dangle": "off",
+    "no-console": "off"
+  },
+  "parser": "babel-eslint",
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"]
+    },
+    "ecmaFeatures": {
+      "classes": true,
+      "jsx": true
+    }
+  }
+}
